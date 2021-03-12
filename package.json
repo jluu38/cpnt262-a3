@@ -1,5 +1,5 @@
 {
-  "name": "prep",
+  "name": "server.js",
   "version": "0.1.0",
   "description": "",
   "main": "server.js",
@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jess Luu",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",

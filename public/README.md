@@ -1,4 +1,4 @@
-# CPNT 262: Dynamic Image Gallery
+# CPNT 262: Deployed Static Express Page
 
 Created and maintained by Jessica Luu
 
@@ -38,3 +38,5 @@ Created and maintained by Jessica Luu
     - [Les Vampires](https://commons.wikimedia.org/wiki/File:Lesvampiresposter.jpg)
 
 \* Note: restored editions of these films are copyrighted, however reissues from the country of origin and vintage artwork remains pubilc domain.
+
+https://stackoverflow.com/questions/6528876/how-to-redirect-404-errors-to-a-page-in-expressjs
