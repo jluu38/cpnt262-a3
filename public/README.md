@@ -2,21 +2,15 @@
 
 Created and maintained by Jessica Luu
 
-- [Repository](https://github.com/jluu38/cpnt262-a2/)
-- [GitHub Page](https://jluu38.github.io/cpnt262-a2)
+- [Repository](https://github.com/jluu38/cpnt262-a3/)
+- [Heroku Page](https://cpnt-262-a3.herokuapp.com/)
 
 ## Comments
 
-- Renamed some of the required object properties, but they should all be present
-- Direct DOM manipulation was used to output all information (except for `id`)
-- Re: some things I might get clocked for:
-- `Width` and `height` were tricky since the sizes of my images greatly differ, so opted instead to textually display the original image size in a modal
-  - (I initially had the original image dimensions displayed with the image credits but felt they weren't being used as image attributes like the assignment asked for)
-  - To compensate, the `if/else statement` in the `forEach()` method (line 153 onwards) uses the `height` property of each object to determine how it appears in the modal *(most evident with the Häxan poster)*
-  - Chose 700px for modal because it accommodates the ridiculous proportions of the Girl Shy poster & it shouldn't overflow fullscreen windows on an average screen resolution(?)
-- But as a result of the above, images are not responsive while opened in the modal (gallery remains responsive and accessible though)
-  - However, there is a second scrollbar for the modal should an image overflow (I know it's bad practice)
-- In conclusion, everyone who said my images were nothing but trouble for this assignment were right
+- Added a **Break Me** button on the nav bar that leads to `/asdf` in case you didn't feel like manually slapping some gibberish into the url.
+- Opted not to use `req` and `res` to avoid confusion for my own sake.
+- `HOST` as an environmental variable popped up in most of the `dotenv` tutorials/documentation/example code I found, but I'm not sure how necessary it is?
+  - Included it just in case there was a standard or the like.
 
 ## Attributions
 
@@ -36,8 +30,6 @@ Created and maintained by Jessica Luu
     - [Häxan](https://en.wikipedia.org/wiki/H%C3%A4xan#/media/File:Haxan_sv_poster.jpg) *
     - [He Who Gets Slapped](https://commons.wikimedia.org/wiki/File:He_Who_Gets_Slapped.jpg)
     - [Les Vampires](https://commons.wikimedia.org/wiki/File:Lesvampiresposter.jpg)
+- 404 Page [Comic](https://workchronicles.com/accidents/) - Work Chronicles
 
 \* Note: restored editions of these films are copyrighted, however reissues from the country of origin and vintage artwork remains pubilc domain.
-
-https://stackoverflow.com/questions/6528876/how-to-redirect-404-errors-to-a-page-in-expressjs
-https://workchronicles.com/accidents/
